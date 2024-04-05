@@ -1,66 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script>
-        function getComputerChoice() {
-            let ranNum = Math.floor(Math.random() * 3);
-            let choice
-            if (ranNum == 0) {
-                return choice = "rock" 
-            }
-            else if (ranNum == 1) {
-                return choice == "paper"
-            }
-            else {
-                return choice == "scissors"
-            }
-            
-            
-        }
+    <head>
+        <meta charset = "utf-8" />
+        <title>RPS game</title>
+        <link rel="stylesheet" href = "styles.css"/>
+        <script src = "js-file.js" defer></script>
+    </head>
+    <body>
+        <div id ="container">
+            <h1>Rock, Paper, Scissors</h1>
+            <h2>First to five wins</h2>
 
-        function RPS_game(playerChoice, computerChoice) {
-            
-            if (playerChoice.toLowerCase() == "rock"){
-                if (computerChoice.toLowerCase() == "paper"){
-                    return "You lose paper covers rock!"
-                }
-                else if (computerChoice.toLowerCase() == "rock"){
-                    return "you both chose rock you both tie!"
-                } 
-                else {
-                    return "you won! the computer chose scissors"
-                }
-            }
-            else if (playerChoice.toLowerCase() == "paper") {
-                if (computerChoice.toLowerCase() == "paper"){
-                    return "You tie you both chose paper!"
-                }
-                else if (computerChoice.toLowerCase() == "rock"){
-                    return "you won! paper covers rock"
-                } 
-                else {
-                    return "you lose! the computer chose scissors"
-                }
-            }
-            else {
-                if (computerChoice.toLowerCase() == "paper"){
-                    return "You win scissors cuts paper!"
-                }
-                else if (computerChoice.toLowerCase() == "rock"){
-                    return "you lose! Rock crushes scissors!"
-                } 
-                else {
-                    return "you tie the computer chose scissors"
-                }
-            }
-            }
-        
-            let computer_RPS = getComputerChoice();
-            console.log(RPS_game("roCK", computer_RPS));
-            console.log(RPS_game("paper", computer_RPS));
-            console.log(RPS_game("scissors", computer_RPS));
-
-            
-    </script>
-
+        </div>
+    </body>
 
 </html>

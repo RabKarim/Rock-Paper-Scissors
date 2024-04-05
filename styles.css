@@ -1,0 +1,27 @@
+#container {
+    width: 1000px;
+    height: 700px;
+    background-color: lightgray;
+    position: relative;
+    left: 400px;
+    top: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+button {
+    font-size: 24px;
+    width: 200px;
+    position: relative;
+    left: 130px;
+    top: 300px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15px;
+
+}
